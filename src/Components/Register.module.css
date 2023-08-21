@@ -1,0 +1,19 @@
+.ipfield {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+    margin-left: 40%;
+    margin-top: 5%;
+    gap: 1rem;
+  }
+  
+  
+  @media (max-width: 500px){
+    .ipfield{
+        margin-left: 5rem;
+        width: 13rem;
+        margin-top: 20%;
+    }
+  }

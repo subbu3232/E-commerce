@@ -1,0 +1,9 @@
+{
+"HOME":"/",
+"CART":"cart/:pid",
+"CONTACTUS":"/contactus",
+"LOGIN":"login",
+"REGISTER":"register",
+"PAYMENTPAGE":"paymentpage",
+"ACCOUNT":"account"
+}

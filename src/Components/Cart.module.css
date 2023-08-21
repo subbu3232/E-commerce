@@ -1,0 +1,98 @@
+/* Cart.module.css */
+.cartContainer {
+    margin: 2rem;
+  }
+  
+  .btn {
+    background-color: #5745aa;
+    border: none;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .emptycart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .errbtn {
+    background-color: #5745aa;
+    border: none;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  .total{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .itemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .itemContainer h3 {
+    font-weight: bold;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 500px) {
+    .container {
+      gap: 0.5rem;
+    }
+    .mtitle{
+        font-size: 0.7rem;
+        width: 6rem;
+    }
+    .mprice{
+        font-size: 0.7rem;
+    }
+  }
+  .qcontroller{
+    width: 8rem;
+height: 1rem;
+  }
+  .qbtn{
+    width: 2rem;
+    height:2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #2A8BD9;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .paymemt{
+    display: flex;
+ justify-content: center;
+    /* align-items: center; */
+  }
+  .pbtn{
+    background-color: #5745aa;
+    border: none;
+    border-radius: 1rem;
+    height: 2.6rem;
+    padding: 0.5rem;
+    width: 8.5rem;
+    color: white;
+    cursor: pointer;
+ 
+  }

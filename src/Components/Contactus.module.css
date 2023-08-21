@@ -1,0 +1,75 @@
+.emailCompose {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add additional styling for different screen sizes as needed */
+  @media (max-width: 768px) {
+    .emailCompose {
+      padding: 10px;
+    }
+  }
+  .goToHomeButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    /* To ensure the button is placed above other content */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width:500px) {
+
+    .goToHomeButton{
+        height: 2rem;
+        width: 2.2rem;
+        margin-bottom: 2.5rem;
+      
+    }
+    h2{
+        margin-left: 5rem;
+    }
+   .emailCompose{
+    margin-top: 2rem;
+   }
+}
+@media (max-width:700px){
+    h2{
+        margin-left: 5rem;
+    }
+    .emailCompose{
+        margin-top: 2rem;
+       }
+}

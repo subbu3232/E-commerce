@@ -1,0 +1,293 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .paymentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .logo {
+    width: 9rem;
+    height: 7rem;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .carddetails {
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .cardDetailsLabel {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .carddetails input[type='text'] {
+    width: 40px;
+    height: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px;
+  }
+  
+  .paymentDropdown {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .proceedButton {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .proceedButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .additionalFields {
+    margin-top: 20px;
+  }
+  
+  .cvvBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .expiryBox {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .cvvBox label,
+  .expiryBox label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .cvvBox input,
+  .expiryBox input {
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .cvvBox input[type='password'] {
+    letter-spacing: 2px;
+  }
+  
+  .additionalFields {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .expiryBox {
+    gap: 5px;
+  }
+  
+  .eip {
+    width: 2.5rem;
+    height: 0.5rem;
+  }
+  
+  @media (max-width: 500px) {
+    .carddetails input[type='text'] {
+      width: 30px;
+      height: 20px;
+      font-size: 14px;
+    }
+  
+    .proceedButton {
+      font-size: 14px;
+    }
+  
+    .eip {
+      width: 2rem;
+      height: 0.4rem;
+      font-size: 14px;
+    }
+  }
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.paymentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 9rem;
+  height: 7rem;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.carddetails {
+  display: flex;
+  gap: 1px;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.cardDetailsLabel {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.carddetails input[type='text'] {
+  width: 40px;
+  height: 20px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0px;
+}
+
+.paymentDropdown {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.proceedButton {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.proceedButton:hover {
+  background-color: #0056b3;
+}
+
+.additionalFields {
+  margin-top: 20px;
+}
+
+.cvvBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.expiryBox {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cvvBox label,
+.expiryBox label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.cvvBox input,
+.expiryBox input {
+  width: 70px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.cvvBox input[type='password'] {
+  letter-spacing: 2px;
+}
+
+.additionalFields {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.expiryBox {
+  gap: 5px;
+}
+
+.eip {
+  width: 2.5rem;
+  height: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+  .carddetails input[type='text'] {
+    width: 30px;
+    height: 20px;
+    font-size: 14px;
+  }
+
+  .proceedButton {
+    font-size: 14px;
+  }
+
+  .eip {
+    width: 2rem;
+    height: 0.4rem;
+    font-size: 14px;
+  }
+}
+  
