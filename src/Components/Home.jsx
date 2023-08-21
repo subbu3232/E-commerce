@@ -70,7 +70,10 @@ navigate(route.CART)
 
         } } >🛒</div>
 </div>
-
+<div className={styles.banner}>
+     {/* <h1>Hot Sale Going Live! Shop Now</h1> */}
+     <h1>The Sale Is On</h1>
+</div>
 <div className={styles.products}>
 
   {search === '' ? (
